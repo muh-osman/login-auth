@@ -12,7 +12,7 @@ import RequireAuth from "./context/RequireAuth";
 
 function App() {
   return (
-    <Router>
+    <Router basename={"/login-authentication/"}>
       <Container
         className="d-flex align-items-center justify-content-center"
         style={{ minHeight: "100vh" }}
